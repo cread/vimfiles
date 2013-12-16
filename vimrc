@@ -15,6 +15,7 @@ set formatoptions=tcrqwn
 set showmatch matchtime=5
 set whichwrap=<,>,h,l,[,]
 set cursorline
+set number
 "highlight CursorLine cterm=bold
 "highlight MatchParen ctermbg=white
 set modeline
