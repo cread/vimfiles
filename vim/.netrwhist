@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/cread/develop/grid/chef-repo/cookbooks/riak/attributes'
+let g:netrw_dirhist_2='/Users/cread/develop/grid/chef-repo/cookbooks/gridadmin'
+let g:netrw_dirhist_3='/Users/cread/develop/grid/chef-repo/cookbooks/drw_activedirectory'
+let g:netrw_dirhist_4='/Users/cread/develop/grid/chef-repo/cookbooks/build_deps'
