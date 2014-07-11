@@ -21,6 +21,9 @@ set backspace=indent
 "highlight MatchParen ctermbg=white
 set modeline
 
+set exrc            " enable per-directory .vimrc files
+set secure          " disable unsafe commands in local .vimrc files
+
 " Store .swp files in /tmp with mangled names
 set directory=/tmp//
 
@@ -41,4 +44,9 @@ set background=dark
 " NERDTree wiring
 map <C-n> :NERDTreeToggle<CR>
 autocmd vimenter * if !argc() | NERDTree | endif
+
+" add list lcs=tab:>-,trail:x for tab/trailing space visuals
+autocmd BufEnter ?akefile* set noet ts=8 sw=8 nocindent
+
+let NERDTreeMapOpenInTab='<ENTER>'
 
